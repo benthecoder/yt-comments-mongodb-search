@@ -75,7 +75,7 @@ def main():
     st.subheader("Search for anything in the a video's comments!")
 
     # css style for highlighting text
-    local_css("./style.css")
+    local_css("yt_comments/style.css")
 
     vid_id = get_vid_id(VID_URL)
 
