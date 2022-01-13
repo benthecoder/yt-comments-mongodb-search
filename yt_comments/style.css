@@ -1,0 +1,21 @@
+.highlight {
+  border-radius: 0.4rem;
+  color: white;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-weight: 700;
+  color: lightcoral;
+}
+
+.user {
+  padding-left: 1rem;
+  font-weight: 700;
+  color: lightcoral;
+}
+
+.green {
+  color: lightgreen;
+}

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "yt-comments"
+version = "0.1.0"
+description = ""
+authors = ["benthecoder <benthecoder07@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.3.1"
+pandas = "^1.3.3"
+pymongo = {extras = ["srv"], version = "^4.0.1"}
+google-api-python-client = "^2.34.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^21.12b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
