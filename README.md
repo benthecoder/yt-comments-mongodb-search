@@ -24,11 +24,36 @@ This project was inspired by the [MongoDB Atlas Hackathon on DEV](https://dev.to
 <img src="assets/results.png" width="800" /> 
 <img src="assets/df-result.png" width="800" />
 
-## Guide to YouTube API
+## Installation
 
-Here's a guide to get your YouTube API key
+If you want to run this app locally, install [poetry](https://python-poetry.org/) if you don't have it already
 
-- https://blog.hubspot.com/website/how-to-get-youtube-api-key
+### First clone the app 
+
+```bash
+  git clone https://github.com/benthecoder/yt-comments-mongodb-search.git
+  cd yt-comments-mongodb-search
+```
+
+Once you have a mongodb cluster and your YouTube API key ([guide](https://blog.hubspot.com/website/how-to-get-youtube-api-key)) ready. Rename `secrets.toml.example` in the `.streamlit` folder to `secrets.toml` and add your mongodb user name and password, and the API key by replacing them with the YOUR_... phrases. 
+
+### Install dependencies
+
+```bash
+  poetry install
+```
+
+### Run the streamlit app
+
+```bash
+  cd yt_comments
+```
+
+```bash
+  poetry run streamlit run app.py
+```
+
+### Resources
 
 Check your YouTube API quota
 
